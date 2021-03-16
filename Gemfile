@@ -7,6 +7,7 @@ source 'https://rubygems.org'
 gem 'active_interaction', '~> 4.0'
 gem 'rspec-rails', '~> 3.8.2'
 gem 'tezos_client', '~> 1.3.5'
+gem "grape", "~> 1.3.0"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
