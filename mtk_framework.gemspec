@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["othmane el kesri".freeze]
   s.date = "2021-03-17"
-  s.email = "othmane@moneytrack.io".freeze
+  s.email = "dev@moneytrack.io".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -83,4 +83,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])
   end
 end
-

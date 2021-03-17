@@ -17,7 +17,7 @@ Juwelier::Tasks.new do |gem|
   gem.homepage = 'http://github.com/moneytrackio/mtk_framework'
   gem.license = 'MIT'
   gem.summary = 'Moneytrack\'s gems extensions and monkey patches.'
-  gem.email = 'othmane@moneytrack.io'
+  gem.email = 'dev@moneytrack.io'
   gem.authors = ['othmane el kesri']
 
   # dependencies defined in Gemfile
