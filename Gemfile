@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
+
+gem "rails", "~> 6.0.0"
 gem 'active_interaction', '~> 4.0'
 gem 'rspec-rails', '~> 3.8.2'
 gem 'tezos_client', '~> 1.3.5'
