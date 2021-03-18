@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/moneytrackio/mtk_framework".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.0.3".freeze
+  s.rubygems_version = "3.0.9".freeze
   s.summary = "Moneytrack's gems extensions and monkey patches.".freeze
 
   if s.respond_to? :specification_version then
