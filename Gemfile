@@ -18,4 +18,5 @@ group :development do
   gem 'juwelier', '~> 2.1.0'
   gem 'pry'
   gem 'rdoc', '~> 3.12'
+  gem "faker", git: "https://github.com/moneytrackio/faker.git", branch: "feat/add-blockchain-tezos-keys"
 end

@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".github/workflows/test.yml",
     ".rspec",
     "Gemfile",
     "LICENSE.txt",
@@ -56,6 +57,14 @@ Gem::Specification.new do |s|
     "spec/active_interaction_concerns/loggable_spec.rb",
     "spec/application_interaction_spec.rb",
     "spec/fake_app.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_account_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_contract_address_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_operation_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_public_key_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_secret_key_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters/tz_signature_filter_spec.rb",
+    "spec/gem_extensions/active_interaction/filters_shared.rb",
+    "spec/gem_extensions/active_interaction/tz_filters_shared.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/moneytrackio/mtk_framework".freeze
@@ -72,20 +81,22 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rails>.freeze, ["~> 6.0.0"])
       s.add_runtime_dependency(%q<rspec-rails>.freeze, ["~> 3.8.2"])
       s.add_runtime_dependency(%q<tezos_client>.freeze, ["~> 1.3.5"])
-      s.add_development_dependency(%q<bundler>.freeze, ["~> 1.7"])
+      s.add_development_dependency(%q<bundler>.freeze, ["~> 2.2.14"])
       s.add_development_dependency(%q<juwelier>.freeze, ["~> 2.1.0"])
       s.add_development_dependency(%q<pry>.freeze, [">= 0"])
       s.add_development_dependency(%q<rdoc>.freeze, ["~> 3.12"])
+      s.add_development_dependency(%q<faker>.freeze, [">= 0"])
     else
       s.add_dependency(%q<active_interaction>.freeze, ["~> 4.0"])
       s.add_dependency(%q<grape>.freeze, ["~> 1.3.0"])
       s.add_dependency(%q<rails>.freeze, ["~> 6.0.0"])
       s.add_dependency(%q<rspec-rails>.freeze, ["~> 3.8.2"])
       s.add_dependency(%q<tezos_client>.freeze, ["~> 1.3.5"])
-      s.add_dependency(%q<bundler>.freeze, ["~> 1.7"])
+      s.add_dependency(%q<bundler>.freeze, ["~> 2.2.14"])
       s.add_dependency(%q<juwelier>.freeze, ["~> 2.1.0"])
       s.add_dependency(%q<pry>.freeze, [">= 0"])
       s.add_dependency(%q<rdoc>.freeze, ["~> 3.12"])
+      s.add_dependency(%q<faker>.freeze, [">= 0"])
     end
   else
     s.add_dependency(%q<active_interaction>.freeze, ["~> 4.0"])
@@ -93,10 +104,11 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rails>.freeze, ["~> 6.0.0"])
     s.add_dependency(%q<rspec-rails>.freeze, ["~> 3.8.2"])
     s.add_dependency(%q<tezos_client>.freeze, ["~> 1.3.5"])
-    s.add_dependency(%q<bundler>.freeze, ["~> 1.7"])
+    s.add_dependency(%q<bundler>.freeze, ["~> 2.2.14"])
     s.add_dependency(%q<juwelier>.freeze, ["~> 2.1.0"])
     s.add_dependency(%q<pry>.freeze, [">= 0"])
     s.add_dependency(%q<rdoc>.freeze, ["~> 3.12"])
+    s.add_dependency(%q<faker>.freeze, [">= 0"])
   end
 end
 

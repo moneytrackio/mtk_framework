@@ -1,7 +1,15 @@
-require "bundler/setup"
+# frozen_string_literal: true
 
-require_relative "../lib/mtk_framework.rb"
+require 'bundler/setup'
+
+require_relative '../lib/mtk_framework.rb'
+require 'faker'
+
 require_relative 'fake_app.rb'
+
+# require shared files
+require_relative 'gem_extensions/active_interaction/filters_shared.rb'
+require_relative 'gem_extensions/active_interaction/tz_filters_shared.rb'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
