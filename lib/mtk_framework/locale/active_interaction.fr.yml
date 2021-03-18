@@ -1,0 +1,8 @@
+active_interaction:
+  types:
+    tz_secret_key: clef secrète tezos
+    tz_public_key: clef publique tezos
+    tz_contract_address: adresse de smart contrat tezos
+    tz_account: compte tezos
+    tz_signature: signature tezos
+    tz_operation: operation tezos
