@@ -2,10 +2,10 @@
 
 # External libs
 require 'active_interaction'
-require 'tezos_client'
 require 'active_support/core_ext/hash/indifferent_access'
 require 'grape'
 require 'rails'
+require 'tezos_client'
 
 # Gem extensions
 GEM_EXTENSIONS_PATH = 'mtk_framework/gem_extensions/active_interaction'
@@ -38,5 +38,13 @@ require_relative "#{ACTIVE_INTERACTION_CONCERNS_PATH}/rescuable.rb"
 require_relative "#{ACTIVE_INTERACTION_CONCERNS_PATH}/interruptable.rb"
 require_relative "#{ACTIVE_INTERACTION_CONCERNS_PATH}/loggable.rb"
 require_relative "#{ACTIVE_INTERACTION_CONCERNS_PATH}/updatable_object.rb"
+
+I18n.load_path.unshift(
+  *Dir.glob(
+    File.expand_path(
+      File.join(%w[mtk_framework locale *.yml]), File.dirname(__FILE__)
+    )
+  )
+)
 
 require_relative 'mtk_framework/railtie.rb' if defined?(Rails::Railtie)

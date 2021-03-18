@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails/backtrace_cleaner'
+require 'active_support/parameter_filter'
 
 module MtkFramework
   module ActiveInteractionConcerns
