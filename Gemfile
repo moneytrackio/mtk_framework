@@ -14,7 +14,7 @@ gem 'tezos_client', '~> 1.3.5'
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-  gem 'bundler', '~> 1.7'
+  gem 'bundler', '~> 2.2.14'
   gem 'juwelier', '~> 2.1.0'
   gem 'pry'
   gem 'rdoc', '~> 3.12'
