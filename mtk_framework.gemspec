@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["othmane el kesri".freeze]
-  s.date = "2021-04-23"
+  s.date = "2021-07-19"
   s.email = "dev@moneytrack.io".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -81,7 +81,7 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency(%q<grape>.freeze, ["~> 1.3.0"])
     s.add_runtime_dependency(%q<rails>.freeze, ["~> 6.0.0"])
     s.add_runtime_dependency(%q<rspec-rails>.freeze, ["~> 3.8.2"])
-    s.add_runtime_dependency(%q<tezos_client>.freeze, ["~> 1.4.0"])
+    s.add_runtime_dependency(%q<tezos_client>.freeze, ["~> 1.4.2"])
     s.add_development_dependency(%q<bundler>.freeze, ["~> 2.2.14"])
     s.add_development_dependency(%q<juwelier>.freeze, ["~> 2.1.0"])
     s.add_development_dependency(%q<pry>.freeze, [">= 0"])
@@ -92,7 +92,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<grape>.freeze, ["~> 1.3.0"])
     s.add_dependency(%q<rails>.freeze, ["~> 6.0.0"])
     s.add_dependency(%q<rspec-rails>.freeze, ["~> 3.8.2"])
-    s.add_dependency(%q<tezos_client>.freeze, ["~> 1.4.0"])
+    s.add_dependency(%q<tezos_client>.freeze, ["~> 1.4.2"])
     s.add_dependency(%q<bundler>.freeze, ["~> 2.2.14"])
     s.add_dependency(%q<juwelier>.freeze, ["~> 2.1.0"])
     s.add_dependency(%q<pry>.freeze, [">= 0"])
