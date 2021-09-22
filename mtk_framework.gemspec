@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "mtk_framework".freeze
-  s.version = "0.1.4"
+  s.version = "0.1.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -39,6 +39,7 @@ Gem::Specification.new do |s|
     "lib/mtk_framework/active_interaction_params/parametrize_filter.rb",
     "lib/mtk_framework/core_extensions/array/except.rb",
     "lib/mtk_framework/core_extensions/class/virtual_method.rb",
+    "lib/mtk_framework/core_extensions/module/virtual_method.rb",
     "lib/mtk_framework/core_extensions/hash/rename_keys.rb",
     "lib/mtk_framework/gem_extensions/active_interaction/base.rb",
     "lib/mtk_framework/gem_extensions/active_interaction/filters/abstract_tz_filter.rb",
