@@ -25,6 +25,7 @@ CORE_EXTENSIONS_PATH = 'mtk_framework/core_extensions'
 
 require_relative "#{CORE_EXTENSIONS_PATH}/array/except.rb"
 require_relative "#{CORE_EXTENSIONS_PATH}/class/virtual_method.rb"
+require_relative "#{CORE_EXTENSIONS_PATH}/module/virtual_method.rb"
 require_relative "#{CORE_EXTENSIONS_PATH}/hash/rename_keys.rb"
 
 # ActiveInteractionParams
