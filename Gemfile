@@ -5,11 +5,14 @@ source 'https://rubygems.org'
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'active_interaction', '~> 4.0'
-gem 'grape', '~> 1.3.0'
-gem 'rails', '~> 6.0.0'
-gem 'rspec-rails', '~> 3.8.2'
-gem 'tezos_client', '~> 1.4.2'
+
+gem 'active_interaction', '~> 5.2'
+gem 'grape', '~> 1.7'
+gem 'rails', "~> 7.0.4", ">= 7.0.4.3"
+gem 'rspec-rails', '~> 6.0'
+gem 'tezos_client',
+    git: 'https://github.com/moneytrackio/tezos_client.git',
+    branch: 'feat/update-gem-version'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
