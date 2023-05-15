@@ -5,10 +5,10 @@ source 'https://rubygems.org'
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'active_interaction', '~> 4.0'
+gem 'active_interaction', '>= 4.0'
 gem 'grape', '~> 1.3.0'
-gem 'rails', '~> 6.0.0'
-gem 'rspec-rails', '~> 3.8.2'
+gem 'rails', '>= 6.0'
+gem 'rspec-rails', '>= 3.8.2'
 gem 'tezos_client', '~> 1.4.2'
 
 # Add dependencies to develop your gem here.

@@ -9,6 +9,8 @@ module MtkFramework
       extend ActiveSupport::Concern
 
       included do
+        define_callbacks :type_check
+
         set_callback :type_check,
                      :after,
                      :log_errors,
