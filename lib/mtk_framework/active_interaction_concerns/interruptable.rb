@@ -19,7 +19,7 @@ module MtkFramework
           if args[0].is_a? ActiveModel::Errors
             errors.merge!(args[0])
           else
-            errors.add(*args)
+            errors.add(args[0], args[1], **(args[2] || {}))
           end
         end
 
