@@ -18,6 +18,7 @@ pkg
 # Gemfile.lock must be ignored for gems
 Gemfile.lock
 
+.idea
 # Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
 #
 # * Create a file at ~/.gitignore
